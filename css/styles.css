@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: black;
+	color: gold;
+}
+
+.intro {
+	position: absolute;
+	border: 1px solid gold;
+	width: 300px;
+	height: 300px;
+	text-align: left;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.introText {
+	width: 100%;
+}
+
+#startButton {
+	display: flex;
+	justify-content: center;
+}
+#startButton p {
+	width: 50%;
+	border: 1px solid gold;
+	border-radius: 12px;
+	padding: 1% 2%;
+	cursor: pointer;
+}
+.introGone {
+	display: none;
+}
