@@ -1,5 +1,11 @@
-let start = document.getElementById("startButton");
-let intro = document.getElementById("intro");
-start.addEventListener("click", () => {
-	intro.classList.add("introGone");
-});
+let randomizeButton = document.getElementById("randomizeColor");
+let output = document.getElementById("colorOutput");
+randomizeButton.addEventListener("click", () => {
+
+let redValue = Math.ceil(Math.random() * 9)
+let greenValue = Math.ceil(Math.random() * 9)
+let blueValue = Math.ceil(Math.random() * 9)
+
+output.setAttribute("style", "background-color: rgb(redValue, greenValue, blueValue)")
+
+})
