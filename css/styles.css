@@ -3,8 +3,8 @@
 }
 body {
 	margin: 0;
-	background-color: black;
-	color: gold;
+	/* background-color: black; */
+	color: red;
 }
 
 .intro {
@@ -40,4 +40,27 @@ body {
 }
 .introGone {
 	display: none;
+}
+
+
+.wrapper {
+	max-width: 100vw;
+	min-height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+
+	background-color: aqua;
+}
+
+.board {
+	width: 100%;
+	height: 100%;
+	background-color: teal;
+	border: 1px solid orange;
+}
+.board:hover {
+	background-color: rgb(3, 150, 150);
+	border: 1px solid rgb(255, 134, 0);
+
 }
