@@ -7,60 +7,14 @@ body {
 	color: red;
 }
 
-.intro {
-	position: absolute;
-	border: 1px solid gold;
-	width: 300px;
-	height: 300px;
-	text-align: left;
-	top: 50%;
-	left: 50%;
-	margin-left: -150px;
-	margin-top: -150px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	flex-wrap: wrap;
-}
-.introText {
-	width: 100%;
+.colorOutput {
+width: 50%;
+height: 40vh;
+border: 1px solid white;
 }
 
-#startButton {
-	display: flex;
-	justify-content: center;
-}
-#startButton p {
-	width: 50%;
-	border: 1px solid gold;
-	border-radius: 12px;
-	padding: 1% 2%;
-	cursor: pointer;
-}
-.introGone {
-	display: none;
-}
-
-
-.wrapper {
-	max-width: 100vw;
-	min-height: 100vh;
-	display: grid;
-	grid-template-columns: repeat(10, 1fr);
-	grid-template-rows: repeat(10, 1fr);
-
-	background-color: aqua;
-}
-
-.board {
-	width: 100%;
-	height: 100%;
-	background-color: teal;
-	border: 1px solid orange;
-}
-.board:hover {
-	background-color: rgb(3, 150, 150);
-	border: 1px solid rgb(255, 134, 0);
-
+.randomizeColor {
+background-color: aqua;
+color: white;
+border: 1px solid white;
 }
